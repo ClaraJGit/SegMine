@@ -24,4 +24,4 @@ Due to poor image quality 1 combo (well G06 site 2) was excluded from the rest o
 This notebook combines informations from plate_metadata.csv with the morphometry metrics. As the plate description were providing multiple references of well-site combo an assumption was made to select arbitrarily and consistently the plate with the smallest barcode.
 From the gathered data a t-SNE is performed. Combining this with the small variety of collected metrics collected, it can be expected that the resulting figure does not exhibit clusters. The results are illustrated with more plots in the data folder. 
 The metrics used for this t-SNE are purely based on the cells number and shapes (area, min and max diameter), as the intensity metrics, were drafted but could not be harvested within the time constraint.
-![Example result](Figures/t-SNE.png)
+![Example result](Figures/t-SNE-per_compound_type)

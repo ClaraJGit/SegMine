@@ -22,5 +22,5 @@ Due to poor image quality 1 combo (well G06 site 2) was excluded from the rest o
 
 ### 4. DataAnalysis.ipynb
 This notebook combines informations from plate_metadata.csv with the morphometry metrics. As the plate description were providing multiple references of well-site combo an assumption was made to select arbitrarily and consistently the plate with the smallest barcode.
-From the gathered data a t-SNE is performed. Interestingly, despite the small amount of metrics collected, the resulting figure exhibits clusters corresponding to specific chemical components.
+From the gathered data a t-SNE is performed. Interestingly (or suspiciously?), despite this decision and the small amount of metrics collected, the resulting figure exhibits clusters corresponding to specific chemical components.
 ![Example result](Figures/t-SNE.png)

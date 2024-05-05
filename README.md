@@ -21,6 +21,6 @@ median_morphometry_per_site.csv
 Due to poor image quality 1 combo (well G06 site 2) was excluded from the rest of the study.
 
 ### 4. DataAnalysis.ipynb
-This notebook combines informations from plate_metadata.csv with the morphometry metrics. As the plate description were providing multiple references of well-site combo an assumption was made to select arbitrarily and consistently the more recent plate (because choosing a single reference felt less confusing than havine multiple ones).
-From the gathered data a t-SNE is performed and the result displayed exhibits clusters corresponding to specific chemical components.
+This notebook combines informations from plate_metadata.csv with the morphometry metrics. As the plate description were providing multiple references of well-site combo an assumption was made to select arbitrarily and consistently the plate with the smallest barcode.
+From the gathered data a t-SNE is performed. Interestingly, despite the small amount of metrics collected, the resulting figure exhibits clusters corresponding to specific chemical components.
 ![Example result](Figures/t-SNE.png)

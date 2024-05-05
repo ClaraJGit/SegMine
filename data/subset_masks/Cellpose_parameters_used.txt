@@ -1,0 +1,5 @@
+CELLPOSE PARAMETERS
+Model: cyto3
+Diameter: 195
+Flow Threshold: 0.4
+Cell probability Threshold: -1

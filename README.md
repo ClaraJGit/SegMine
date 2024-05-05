@@ -13,8 +13,7 @@ This notebook combines images acquired at 3 wavelengths into rgb (405, 488 and 7
 
 ### 2. Run_cellpose.ipynb
 This notebook tunes the parameters of the cyto3 model on a subset of images before running the model on the entire folder. Illustration of the segmentations are stored in data/seg_plots folder. The resulting segmentation masks were then downloaded and set in a folder parallel to the source images.
-
-Example of result in Readme?
+![Example result](Figures/ExampleOfSegmentation.png)
 
 ### 3. ExtractMorphoPerImage.ipynb 
 This notebook harvest the cells for morphometry metrics. The median  is more robust to outliers than the mean. The median of the metrics were calculated at each well-site combo over all cells, and are stored in the file:
@@ -24,5 +23,4 @@ Due to poor image quality 1 combo (well G06 site 2) was excluded from the rest o
 ### 4. DataAnalysis.ipynb
 This notebook combines informations from plate_metadata.csv with the morphometry metrics. As the plate description were providing multiple references of well-site combo an assumption was made to select arbitrarily and consistently the more recent plate (because choosing a single reference felt less confusing than havine multiple ones).
 From the gathered data a t-SNE is performed and the result displayed exhibits clusters corresponding to specific chemical components.
-
-figure here? 
+![Example result](Figures/t-SNE.png)

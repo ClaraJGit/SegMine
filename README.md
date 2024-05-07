@@ -3,7 +3,7 @@
 This project contains the skeleton of a pipeline for cell profiling.
 It aims to perform the bioimage analysis task proposed by Phenaros, description can be found here: https://github.com/pharmbio/SegMine/tree/main
 
-The project was built on a Windows machine (8G RAM,Processor	11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz, 2803 Mhz, 4 Core(s), 8 Logical Processor(s )
+The image segmentation was performed using online GPU access while the image analysis of the project was built on a Windows machine (8G RAM,Processor	11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz, 2803 Mhz, 4 Core(s), 8 Logical Processor(s )
 To set up the environment: 
 pip install -r requirements_segmine.txt 
 
